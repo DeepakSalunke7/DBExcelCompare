@@ -2,11 +2,6 @@ package com.xyz;
 
 public class InputData {
 
-	@Override
-	public String toString() {
-		return " [id=" + id + ", name=" + name + ", sirname=" + sirname + ", salary=" + salary + ", city=" + city + "]";
-	}
-
 	private String id;
 	private String name;
 	private String sirname;
@@ -65,6 +60,11 @@ public class InputData {
 		boolean equal = idCheck && nameCheck && sirnameCheck && salaryCheck && cityCheck;
 
 		return equal;
+	}
+
+	@Override
+	public String toString() {
+		return " [id=" + id + ", name=" + name + ", sirname=" + sirname + ", salary=" + salary + ", city=" + city + "]";
 	}
 
 }

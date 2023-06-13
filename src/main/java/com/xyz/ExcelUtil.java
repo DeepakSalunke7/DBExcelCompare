@@ -10,16 +10,16 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-public class ReadExcelData {
+public class ExcelUtil {
 
-	public ReadExcelData() {
+	public ExcelUtil() {
 		// TODO Auto-generated constructor stub
 	}
-
+	
 	public static void main(String[] args) {
-
+		
 	}
-
+	
 	public List<InputData> readExcelFile(String file) {
 		boolean firstLine = true;
 		Row nextRow = null;
